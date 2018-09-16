@@ -1,0 +1,7 @@
+#!/bin/bash
+
+wine ~/xl305win/bin/xlwin32.exe $@
+
+
+GDZIE_JESTEM=$(pwd)
+echo "Jestem w katalogu $GDZIE_JESTEM"
